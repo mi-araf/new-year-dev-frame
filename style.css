@@ -1,0 +1,51 @@
+/* universal + shared */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.work-sans-font {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.btn-orange {
+    background-color: #F15B22;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px 27px;
+    border: none;
+    border-radius: 5px;
+}
+.btn-orange:hover {
+    cursor: pointer;
+}
+
+/* content */
+header {
+    background: url("images/banner/banner2.png");
+    max-width: 1600px;
+    height: 810px;
+    display: flex;
+    justify-content: right;
+}
+.header-content {
+    text-align: right;
+    position: absolute;
+    margin: 216px 230px 0 0;
+    width: 525px;
+    height: 426px;
+}
+.header-content h1 {
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.header-content p {
+    color: #444343;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0 0 30px 30px;
+    max-width: 494px;
+}
