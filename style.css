@@ -140,3 +140,50 @@ header {
     color: #FFFFFF;
     margin-bottom: 24px;
 }
+
+footer {
+    background-color: #151414;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-content {
+    width: 485px;
+    height: 316px;
+    margin: 130px 0;
+}
+.subscribe {
+    width: 325px;
+    height: 202px;
+    margin: 130px 0;
+}
+footer h3 {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: bold;
+}
+footer p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.footer-content div a {
+    margin-right: 17px;
+}
+.subscribe h3 {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 500;
+}
+.subscribe input {
+    width: 325px;
+    height: 62px;
+    margin: 30px 0 16px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+}
+.subscribe input::placeholder {
+    background-color: #151414;
+    color: #F3F3F3;
+    font-size: 15px;
+    padding: 22px 0 22px 22px;
+}
