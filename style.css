@@ -49,3 +49,39 @@ header {
     margin: 0 0 30px 30px;
     max-width: 494px;
 }
+
+#failure {
+    width: 68%;
+    max-width: 1072px;
+    display: flex;
+    justify-content: space-between;
+    margin: 130px auto;
+}
+.failure-image {
+    width: 450px;
+}
+.failure-content {
+    margin-top: 35px;
+    width: 349px;
+}
+#failure h3 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 200px;
+    margin-bottom: 24px;
+}
+.failure-content-text {
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444343;
+}
+#failure p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #444343;
+    margin-bottom: 8px;
+}
+#failure p i {
+    color: #16D887;
+}
